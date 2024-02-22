@@ -140,7 +140,7 @@ header>.logo-nav>.link-nav>.login-nav {
     background-color: #196607;
 }
 
-/* FOOTER */
+/* FOOTER  TOP*/
 .footer-top,.footer-bottom{
     background-color: black;
     padding: 5px 0;
@@ -158,4 +158,19 @@ header>.logo-nav>.link-nav>.login-nav {
     min-height: 100px;
     border-style: dotted;
     /* gap: 1px; ??*/
+}
+/* FOOTER  BOTTOM*/
+.lightgreen{
+background-color: aquamarine;
+width: 300px;
+justify-content: space-between;
+padding: 10px 0;
+}
+
+
+.f-logo, .f-buttom{
+    width: 50px;
+    /* FINE THE BUG */
+    border-style: dotted;
+    background-color: #FFC0CB;
 }
