@@ -4,8 +4,69 @@
     padding: 0;
     box-sizing: border-box;
   }
-  
+
 /* THE BUG */
   body{
     background-color: aqua;
   }
+
+/* HEADER */
+  .header{
+    background-color: #ADD8E6;
+    /* THE BUG */
+    height: 40px;
+    padding: 5px 20px;
+
+    /* align-items: center;
+    justify-content: center;
+    text-align: center;
+    è bastato mettere MARGIN 0 AUTO che ha centrato tutto*/
+  }
+
+  .nav-container{
+    display: flex;
+    background-color: #DAA520;
+    /* THE BUG */
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    /* è bastato mettere MARGIN 0 AUTO che ha centrato tutto */
+  }
+
+  header> .logo-nav > .link-nav> .login-nav{
+    border-style: dotted;
+    font-size: 5px;   
+    padding: 5px;    
+  }
+
+  .logo-nav, .login-nav{
+    /* THE BUG */
+    width: 50px;
+    /* FINE THE BUG */
+    border-style: dotted;
+  }
+
+  .link-nav{
+    border-style: dotted;
+    /* THE BUG */
+    width: 200px;   
+  }
+  /* AND HEADER */
+
+  /* CANTAINER ROSA */
+  .wrapper-pink{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* THE BUG */
+    background-color: blue;
+    height: 200px;
+  }
+
+.container-pink{
+    /* THE BUG */
+    width: 220px;
+    height: 100px;
+    background-color: #EE82EE;
+    }
+     /* FINE CANTAINER ROSA */
