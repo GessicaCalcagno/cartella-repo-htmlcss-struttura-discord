@@ -3,15 +3,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
 
 /* THE BUG */
-  body{
+/* body {
     background-color: aqua;
-  }
+} */
 
 /* HEADER */
-  .header{
+.header {
     background-color: #ADD8E6;
     /* THE BUG */
     height: 40px;
@@ -21,9 +21,9 @@
     justify-content: center;
     text-align: center;
     è bastato mettere MARGIN 0 AUTO che ha centrato tutto*/
-  }
+}
 
-  .nav-container{
+.nav-container {
     display: flex;
     background-color: #DAA520;
     /* THE BUG */
@@ -31,42 +31,110 @@
     text-align: center;
     margin: 0 auto;
     /* è bastato mettere MARGIN 0 AUTO che ha centrato tutto */
-  }
+}
 
-  header> .logo-nav > .link-nav> .login-nav{
+header>.logo-nav>.link-nav>.login-nav {
     border-style: dotted;
-    font-size: 5px;   
-    padding: 5px;    
-  }
+    font-size: 5px;
+    padding: 5px;
+}
 
-  .logo-nav, .login-nav{
+.logo-nav,
+.login-nav {
     /* THE BUG */
     width: 50px;
     /* FINE THE BUG */
     border-style: dotted;
-  }
+}
 
-  .link-nav{
+.link-nav {
     border-style: dotted;
     /* THE BUG */
-    width: 200px;   
-  }
-  /* AND HEADER */
+    width: 200px;
+}
 
-  /* CANTAINER ROSA */
-  .wrapper-pink{
+/* AND HEADER */
+
+/* CANTAINER ROSA */
+.wrapper-pinkk {
     display: flex;
     align-items: center;
     justify-content: center;
     /* THE BUG */
-    background-color: blue;
-    height: 200px;
-  }
+    background-color: rgb(22, 22, 108);
+    height: 100px;
+}
 
-.container-pink{
+.container-pinkk {
     /* THE BUG */
     width: 220px;
-    height: 100px;
+    height: 80px;
     background-color: #EE82EE;
-    }
-     /* FINE CANTAINER ROSA */
+}
+
+/* FINE CANTAINER ROSA */
+
+/* <!-- CONTAINER A 2 BLOCCHI SFONDO BIANCO +BLU --> */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* THE BUG */
+    min-height: 200px;
+    /* padding: 50px 0;--> NEL CASO NON AVESSI MESSO MIN-HEIGHT */
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.container-pink {
+    /* THE BUG */
+    background-color: #FFC0CB;
+    width: 100px;
+    height: 100px;
+    border-style: dotted;
+}
+
+.container-blue {
+    /* THE BUG */
+    width: 200px;
+    background-color: #ADD8E6;
+    height: 100px;
+    border-style: dotted;
+}
+
+/* <!-- CONTAINER A 2 BLOCCHI SFONDO GRIGIO --> */
+
+.blockrgray {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* THE BUG */
+    min-height: 200px;
+    /* THE BUG */
+    background-color: gray;
+}
+
+.revs{
+    flex-direction: row-reverse; 
+}
+
+/* <!-- CONTENITORE VERDE CON SFONDO GRIGIO --> */
+/* .wrappergray{
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* THE BUG */
+    /* height: 100px; */
+/* } */
+
+.container-green {
+    /* THE BUG */
+    width: 220px;
+    height: 80px;
+    background-color: #196607;
+}
