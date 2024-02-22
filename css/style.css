@@ -124,6 +124,7 @@ header>.logo-nav>.link-nav>.login-nav {
 }
 
 /* <!-- CONTENITORE VERDE CON SFONDO GRIGIO --> */
+
 /* .wrappergray{
     display: flex;
     align-items: center;
@@ -135,6 +136,26 @@ header>.logo-nav>.link-nav>.login-nav {
 .container-green {
     /* THE BUG */
     width: 220px;
-    height: 80px;
+    min-height: 150px;
     background-color: #196607;
+}
+
+/* FOOTER */
+.footer-top,.footer-bottom{
+    background-color: black;
+    padding: 5px 0;
+    margin-bottom: 2px;
+}
+.f-pink{
+    width: 100px;
+    background-color: #FFC0CB;
+    min-height: 100px;
+    border-style: dotted;
+}
+.f-blu{
+    width: 50px;
+    background-color: #ADD8E6;
+    min-height: 100px;
+    border-style: dotted;
+    /* gap: 1px; ??*/
 }
